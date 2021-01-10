@@ -83,7 +83,6 @@ header h1{
     justify-content: center;
     align-items: center;
     background-color: cyan;
-  
     font-size: 60px;
     text-transform: capitalize;
 
@@ -109,20 +108,20 @@ header h1{
        
     }
     .container{
-        width:133%;
+        width:134%;
         background-color: rgb(48, 48, 47);
     
     }
     header h1{
         font-size:50px; 
         background-color: rgb(235, 103, 103);
-        width: 133%;
+        width: 134%;
     
     }
     .heder-section h1{
         font-size: 35px;
         padding-left: 0px;
-        width: 120%;
+        width: 105%;
      
         background-color: rgb(214, 151, 151);
 
@@ -139,19 +138,19 @@ header h1{
         
     }
     .container{
-        width:133%;
+        width:134%;
         background-color: rgb(94, 109, 86);
     
     }
     header h1{
         font-size:35px; 
-     width: 133%;
+     width: 134%;
        
     }
     
     .heder-section h1{
         font-size: 30px;
-        width: 120%;
+        width: 105%;
 
     }
     .photos-section{
@@ -176,18 +175,18 @@ header h1{
         
     }
     .container{
-        width:133%;
+        width:134%;
         background-color: rgb(236, 173, 233);
     
     }
 
     .heder-section h1{
-        width: 120%;
+        width: 105%;
        
     }
     header h1{
         font-size:30px; 
-     width: 133%;
+     width: 134%;
        
     }
     
