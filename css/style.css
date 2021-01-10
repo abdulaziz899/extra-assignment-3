@@ -60,11 +60,7 @@
    
   
 }
-.heder-section{
-    width: 100%;
-    margin: 0px auto;
-  
-}
+
 .heder-section h1{
    
     font-size: 50px ;
@@ -82,7 +78,7 @@
     background-color: rgb(169, 194, 154);
 
 }
-header{
+header h1{
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -92,10 +88,7 @@ header{
     text-transform: capitalize;
 
 }
-header h1{
-    width: 100%;
-    background-color: darkgoldenrod;
-}
+
 
 @media(max-width:668px)
 {
@@ -143,10 +136,7 @@ header h1{
         font-size:20px; 
        
     }
-    .heder-section{
-        width: 100%;
-       
-    }
+    
     .heder-section h1{
         font-size: 25px;
         width: 100%;
