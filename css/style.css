@@ -91,10 +91,12 @@ header{
 
 }
 
-@media(max-width:668px){
+@media(max-width:668px)
+{
     .all-photo-section{
-        grid-template-columns:auto;
+        grid-template-columns: auto ;
     }
+   
     .photos-section{
         width: 100%;
     }
