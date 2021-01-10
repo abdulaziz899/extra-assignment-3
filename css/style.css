@@ -68,7 +68,7 @@
     width: 100%;
     font-size: 50px ;
     width: 40%;
-   color: cyan;
+   color: rgb(31, 8, 243);
     height: 60px;
     text-align: center;
     justify-content: center;
@@ -76,8 +76,8 @@
     
 }
 .container{
-    width:1200px;
-    background-color: rgb(163, 155, 122);
+    width:100%;
+    background-color: rgb(169, 194, 154);
 
 }
 header{
