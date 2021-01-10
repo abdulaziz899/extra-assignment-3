@@ -91,26 +91,7 @@ header{
     text-transform: capitalize;
 
 }
-@media(max-width:980px){
-    .all-photo-section{
-        grid-template-columns: auto auto;
-    }
-    .photos-section{
-       
-        width: 100%;
-        
-    }
-    .photo img{
-        width:250;
-        height: 250px;
-    }
-    .photo-details{
-        width: 60%;
-        padding: 10px;
-       
-    }
 
-}
 @media(max-width:668px){
     .all-photo-section{
         grid-template-columns:auto;
