@@ -64,9 +64,8 @@
 .heder-section h1{
    
     font-size: 50px ;
-    width: 100%;
+   width: 100%;
    color: rgb(31, 8, 243);
- 
     height: 60px;
  padding-left: 60px;
     justify-content: center;
@@ -108,20 +107,20 @@ header h1{
        
     }
     .container{
-        width:134%;
+        width:140%;
         background-color: rgb(48, 48, 47);
     
     }
     header h1{
         font-size:50px; 
         background-color: rgb(235, 103, 103);
-        width: 134%;
+        width: 140%;
     
     }
     .heder-section h1{
         font-size: 35px;
         padding-left: 0px;
-        width: 105%;
+      width: 100%;
      
         background-color: rgb(214, 151, 151);
 
@@ -138,19 +137,19 @@ header h1{
         
     }
     .container{
-        width:134%;
+        width:140%;
         background-color: rgb(94, 109, 86);
     
     }
     header h1{
         font-size:35px; 
-     width: 134%;
+     width: 140%;
        
     }
     
     .heder-section h1{
         font-size: 30px;
-        width: 105%;
+        width: 100%;
 
     }
     .photos-section{
@@ -175,18 +174,18 @@ header h1{
         
     }
     .container{
-        width:134%;
+        width:140%;
         background-color: rgb(236, 173, 233);
     
     }
 
     .heder-section h1{
-        width: 105%;
+        width: 100%;
        
     }
     header h1{
         font-size:30px; 
-     width: 134%;
+     width: 140%;
        
     }
     
