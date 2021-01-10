@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.photo img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: transform 1s ease-in-out .5s;
+    filter: grayscale(100%);
+    margin: 2px;
+}
+.photo img:hover{
+    transform:scale(0.9) rotate(360deg) ;
+    filter: grayscale(0%);
+ 
+}
+.photo-details{
+    width: 280px;
+    height: 265px;
+    padding: 8px;
+    box-shadow: 10px 10px 30px rgba(72, 72, 75, 0.849);
+}
+.photo-details h2{
+    font-weight: bold;
+    color: rgb(91, 7, 247);
+    
+}
+.photo-details p{
+    padding: 10px 0px;
+}
+.player-icon i{
+    font-size: 30px;
+    filter: grayscale(100%);
+    transition: 1s;
+    transition-delay: 1s;
+    padding-left: 15px;
+}
+.player-icon i:hover {
+    filter: grayscale(0%);
+    transform:scale(1.2) rotate(360deg) ;
+}
+.photos{
+    display: flex;
+    align-items: center;
+    
+}
+.all-photo-section{
+    display: grid;
+    grid-gap: 20px 5px;
+    grid-template-columns:auto auto;
+}
+.photos-section{
+  
+    background-color: cornsilk;
+    margin: 0px auto;
+   margin-top: 50px;
+   
+  
+}
+.heder-section{
+    width: 100%;
+    margin: 0px auto;
+}
+.heder-section h1{
+    width: 100%;
+    font-size: 50px ;
+    width: 40%;
+   color: cyan;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 100%;
+    background-color: rgb(163, 155, 122);
+
+}
+header{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+  
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+@media(max-width:668px){
+    .all-photo-section{
+        grid-template-columns:auto;
+    }
+    .photos-section{
+       
+        width: 100%;
+        
+    }
+    .photo img{
+        width:250;
+        height: 250px;
+    }
+    .photo-details{
+        width: 60%;
+        padding: 10px;
+       
+    }
+
+}
+@media(max-width:500px){
+
+    .photos{
+        display: block;
+        margin: 10px 0px;
+        width: 100%;
+       
+        
+    }
+    header{
+        font-size:normal; 
+        margin: 0px;
+    }
+    .heder-section h1{
+        font-size: 25px;
+        width: 100%;
+
+    }
+    .photos-section{
+        width: 100%;
+    }
+    .photo img{
+        width: 480px;
+        height: 480px;
+    }
+    .photo-details{
+        width: 100%;
+        
+    }
+}
+@media(max-width:400px){
+
+    .photos{
+        display: block;
+        margin: 10px 0px;
+        width: 100%;
+       
+        
+    }
+    header{
+        font-size:normal; 
+        margin: 0px;
+    }
+    .heder-section h1{
+        font-size: 25px;
+        width: 100%;
+
+    }
+    .photos-section{
+        width: 100%;
+    }
+    .photo img{
+        width: 300px;
+        height: 300px;
+    
+    }
+    .photo-details{
+        width: 100%;
+        
+    }
+}
