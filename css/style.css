@@ -108,16 +108,21 @@ header h1{
         padding: 10px;
        
     }
+    .container{
+        width:130%;
+        background-color: rgb(48, 48, 47);
+    
+    }
     header h1{
         font-size:50px; 
         background-color: rgb(235, 103, 103);
-        width: 120%;
+        width: 130%;
     
     }
     .heder-section h1{
         font-size: 35px;
         padding-left: 0px;
-        width: 120%;
+        width: 130%;
      
         background-color: rgb(214, 151, 151);
 
@@ -133,15 +138,20 @@ header h1{
        
         
     }
+    .container{
+        width:130%;
+        background-color: rgb(94, 109, 86);
+    
+    }
     header h1{
         font-size:35px; 
-     width: 120%;
+     width: 130%;
        
     }
     
     .heder-section h1{
         font-size: 30px;
-        width: 120%;
+        width: 130%;
 
     }
     .photos-section{
@@ -165,14 +175,19 @@ header h1{
        
         
     }
+    .container{
+        width:130%;
+        background-color: rgb(236, 173, 233);
+    
+    }
 
     .heder-section h1{
-        width: 120%;
+        width: 130%;
        
     }
     header h1{
         font-size:30px; 
-     width: 120%;
+     width: 130%;
        
     }
     
