@@ -74,6 +74,8 @@
 }
 .container{
     width:100%;
+
+    margin: 5px;
     background-color: rgb(169, 194, 154);
 
 }
@@ -86,14 +88,91 @@ header h1{
     text-transform: capitalize;
 
 }
+.cb{
 
 
+
+    background-color: cyan;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px 20px;
+    background-color: rgb(49, 47, 51);
+    padding: 20px;
+  
+}
+#coling{
+    background-color: turquoise;
+}
+#gym{
+    background-color: turquoise;
+}
+.col-5{
+    padding: 50px;
+}
+.col-5 p{
+  
+    color: white;
+}
+.col-5 h1{
+        color: white;
+        text-transform: capitalize;
+        font-size: 25px;
+        font-weight: bold;
+}
+.log img{
+    width: 200px;
+    height: 200px;
+    transition: transform 2s ease-in-out 1s;
+}
+.log img:hover{
+    transform: scale(.9);
+
+}
+#gmy{
+    background-color: rgb(56, 99, 99);
+}
+.ic i{
+    font-size: 30px ;
+    color: blue;
+}
+.foot{      
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container h6{
+    font-size: 50px;
+    color: rgb(0, 38, 255);
+    text-transform: capitalize;
+    padding-top: 30px;
+   
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+
+.col-5 ul {
+    list-style: none;
+}
 @media(max-width:668px)
 {
     .all-photo-section{
         grid-template-columns: auto ;
     }
    
+    .row{
+      grid-template-columns:  auto auto;
+     
+    }
+
     .photos-section{
         width: 100%;
     }
@@ -136,6 +215,11 @@ header h1{
        
         
     }
+    .row{
+        grid-template-columns:   auto;
+       
+      }
+   
     .container{
         width:140%;
         background-color: rgb(94, 109, 86);
